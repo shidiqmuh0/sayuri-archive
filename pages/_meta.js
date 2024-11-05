@@ -1,8 +1,14 @@
 export default {
     index: {
-        title: "Home",
+        title: "home",
         theme: {
             typesetting: 'article'
           }
-    }
+    },
+    alasan: {
+      title: "alasan membuat sayuri-archive.com? ",
+      theme: {
+          typesetting: 'article'
+        }
+  },
   }

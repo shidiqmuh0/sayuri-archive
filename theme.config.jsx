@@ -4,15 +4,13 @@ import { useConfig } from 'nextra-theme-docs'
 export default {
     head() {
         const { asPath, defaultLocale, locale } = useRouter()
-        const { frontMatter,title } = useConfig()
+        const { frontMatter, title } = useConfig()
         const url =
           'https://sayuri-archive.com' +
           (defaultLocale === locale ? asPath : `/${locale}${asPath}`)
      
         return (
-          <>
             <title>{title} | Sayuri Archive</title>
-          </>
         )
       }
   ,
